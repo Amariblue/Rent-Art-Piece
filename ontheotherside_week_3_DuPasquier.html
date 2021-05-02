@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>On the Other Side 3</title>
+</head>
+<body>
+  <h1>
+    On the Other Side
+  </h1>
+</br>
+  <h2 class=quote>
+    <strong>
+      <em>
+        "Art
+    </strong>
+    </em>
+    is what makes 
+    <strong>
+      <em>
+      life
+    </strong>
+    </em> 
+    more interesting than
+    <strong>
+      <em>
+        art"
+    </strong>
+    </em>
+  </br>
+  <span class=filliou>
+    (Robert Filliou)
+  </span>
+</h2>
+</br>
+<hr>
+</br>
+<div>
+<p>
+    Since the pandemic has begun, our access to physical relationship to art and artworks has decreased considerably, but
+    increased our digital social and professional lives considerably. We acknowledge the necessity of being in touch
+    through the digital realm, and we use all its precious ressources.
+  </p>
+  <p>
+    But exhibitions and artworks are often to be sensed first through our and their physicality: materiality, smell,
+    size, the scale of a space or the texture matter. They inform and invite for direct contacts. A direct relationship
+    also allows a viewer to activate not only the view as the most dominant perception sense but also all the other
+    senses.
+  </p>
+  <p>
+    See our different options:
+  </p>
+  <ul>
+    <li>
+      <a href="http://display-berlin.com/about/" target="blank" class="artwork">
+        Rent an artwork
+      </a>
+    </li>
+    <li>
+      <a href="http://display-berlin.com" target="blank" class="exhibition">
+        Mandate a curated exhibition at home
+      </a>
+    </li>
+    <li>
+      <a href="http://display-berlin.com/tag/contact-zone/" target="blank" class="network">
+        Be part of a multiple places curated exhibition
+      </a>
+    </li>
+    </li>
+  </ul>
+</br>
+  <p>
+    In order to balance this reality and give access to the backstage of exhibition-making, we are proposing a new way of exhibiting and new possibilities to access artworks in
+    one own’s space. Let's go to the other side! 
+  </p>
+</br> 
+  <hr>
+  </br>
+  <button>
+    Adopt an Artwork
+  </button>
+
+  <br />
+  </div>
+  <a href="http://display-berlin.com/heute-denken-morgen-fertig/" target="blank" class="sugnaux">
+  <img
+    src="https://mlrfvaooe3if.i.optimole.com/MKJTuxk-B8SAIdeu/w:1500/h:1000/q:74/http://display-berlin.com/wp-content/uploads/2020/06/9_heute_@Chroma.jpg" alt="Grégory Sugnaux"
+    width="750"/>
+  </a>
+<br />
+<br />
+<hr>
+<div class="codeuse">
+<p>
+  Coded by 
+  <a href="http://display-berlin.com" target="blank">
+  Marie DuPasquier
+  </a>
+  </div>
+</p>
+<script>
+  function toTheOtherSide() {
+    let name = prompt("What's your name?");
+   {alert ("Hi " + name);}
+    let email = prompt("What's your email");
+    {alert ("We'll get in touch!!");}
+  let artist = prompt("Do you have a favourite artist? Who is it?");
+    let heading = document.querySelector("h1");
+    if (artist === "no") {
+      heading.innerHTML = "Thank you, " + name + "!! </br> 🌻";
+              } else {
+    heading.innerHTML = "Thank you, " + name + ", " + artist + " is waiting for you!! </br> 🌻";
+  }
+}
+
+  let requestButton = document.querySelector("button");
+  requestButton.addEventListener("click", toTheOtherSide);
+</script>
+</body>
+</html>
+
+
+<head>
+<style>
+h1 {
+  color: #5902FF;
+  font-size: 72px; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+h2 {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 24 px;
+  color: rgb(15, 14, 14); 
+}
+.filliou {
+
+  text-align:center;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: rgb(77, 72, 72); 
+}
+img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 600px;
+  cursor: pointer;
+
+}
+body {
+  background: linear-gradient(#f8c6f1, #e486d4) ; 
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif; 
+  color: rgb(77, 72, 72); 
+}
+.quote {
+
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: rgb(77, 72, 72); 
+}
+.codeuse {
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; 
+  color:#5902FF; 
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif; 
+  color: rgb(77, 72, 72); 
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ button {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #5902ff;
+            background: #5902ff;
+            color: #f8e4e6;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            border-radius: 20px;
+            transition: all 300ms ease;
+            box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #f8e4e6;
+            color: #5902ff;
+            border: 1px solid #5902ff;
+        }
+</style>
+</head>
